@@ -1,11 +1,26 @@
 body,
 html {
     margin-top: 0;
-    text-align: center;
     background-color: rgb(7, 7, 9);
 }
 
-img {
+.cat {
+    text-align: center;
+}
+
+.cat > img {
     width: 100%;
     max-width: 600px;
+}
+
+.tender {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.tender > h1 {
+    font-family: 'Cedarville Cursive', cursive;
+    color: #242424;
+    margin: 0;
 }
