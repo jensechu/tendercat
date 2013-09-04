@@ -1,7 +1,12 @@
 body,
 html {
     margin-top: 0;
+<<<<<<< HEAD
     background-color: rgb(7, 7, 9);
+=======
+    text-align: center;
+    background-color: #070707;
+>>>>>>> master
 }
 
 .cat {
@@ -10,6 +15,7 @@ html {
 
 .cat > img {
     width: 100%;
+<<<<<<< HEAD
     max-width: 600px;
 }
 
@@ -23,4 +29,20 @@ html {
     font-family: 'Cedarville Cursive', cursive;
     color: #242424;
     margin: 0;
+=======
+    max-width: 768px;
+}
+
+.cat-port {
+  margin: 0 auto;
+  position: relative;
+  max-width: 768px;
+}
+
+.cat-reality {
+  margin: 0 auto;
+  position: absolute;
+  bottom: -50px;
+  left: 0;
+>>>>>>> master
 }
