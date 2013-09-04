@@ -2,10 +2,23 @@ body,
 html {
     margin-top: 0;
     text-align: center;
-    background-color: rgb(7, 7, 9);
+    background-color: #070707;
 }
 
 img {
     width: 100%;
     max-width: 768px;
+}
+
+.cat-port {
+  margin: 0 auto;
+  position: relative;
+  max-width: 768px;
+}
+
+.cat-reality {
+  margin: 0 auto;
+  position: absolute;
+  bottom: -50px;
+  left: 0;
 }
